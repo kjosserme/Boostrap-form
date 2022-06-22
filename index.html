@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container bg-light mt-5 p-3">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name-field">Nombre de pila</label>
+                    <input type="text" class="form-control" id="name-field">
+                </div>
+        
+                <div class="form-group col-md-6">
+                    <label for="surname-field">Apellido</label>
+                    <input type="text" class="form-control" id="surname-field">
+                </div>
+            </div>
+            
+    
+            <div class="form-group">
+                <label for="username-field">Nombre de usuario</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="username-field">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="username-field" placeholder="Nombre de usuario">
+                </div>
+            </div>
+    
+            <div class="form-group">
+                <label for="email-field">Correo electronico</label>
+                <input type="email" class="form-control" id="email-field" placeholder="you@example.com">
+            </div>
+    
+            <div class="form-group">
+                <label for="address-field">Habla a</label>
+                <input type="text" class="form-control" id="address-field" placeholder="1234 Main St">
+            </div>
+    
+            <div class="form-group">
+                <label for="address2-field">Direccion 2</label>
+                <input type="text" class="form-control" id="address2-field" placeholder="apartamento o suite">
+            </div>
+    
+            <div class="form-row align-items-center">
+                <div class="form-group col-md-5">
+                    <label for="country-field">Pais</label>
+                    <select class="custom-select mr-sm-2" id="country-field"> 
+                        <option selected>Escoger...</option>
+                        <option value="arg">Argentina</option>
+                        <option value="uy">Uruguay</option>
+                    </select>
+                </div>
+        
+                <div class="form-group col-md-4">
+                    <label for="state-field">Estado</label>
+                    <select class="custom-select mr-sm-2" id="state-field"> 
+                        <option selected>Escoger...</option>
+                        <option value="arg">Buenos Aires</option>
+                        <option value="uy">Montevideo</option>
+                    </select>
+                </div>
+        
+                <div class="form-group col-md-3">
+                    <label for="zip-field">Codigo postal</label>
+                    <input type="text" class="form-control" id="zip-field">
+                </div>
+            </div>
+
+            <hr class="my-3">
+
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="check1">
+                <label for="check1" class="form-check-laber">La direccion de envio es la misma que mi direccion de facturacion</label>
+            </div>
+
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="check2">
+                <label for="check2" class="form-check-laber">Guarde esta informacion para la proxima vez</label>
+            </div>
+    
+        </form>
+    </div>
+
+</body>
+</html>
